@@ -1,0 +1,100 @@
+Datasource Implementation (3 weeks)
+
+	Frontend Implementation Using grafana/ui (status:Completed)
+		Completed: No further action needed.
+		Frontend Implementation of Following Functions (status:In-Progress)
+
+	1.Validation (2-3 days)
+		Ensure input fields in the datasource configuration are correctly validated.
+		Implement feedback for incorrect or missing inputs.
+	2.initMetricAppidMapping (2-3 days)
+		Initialize mapping between metric names and application IDs.
+		Handle initial data loading and caching mechanisms.
+	4. Query (4-5 days)
+		Implement the main query logic to fetch data from the datasource.
+		Handle different query types and parameters.
+		Ensure proper error handling and response formatting.
+	5. HTTP GET (2-3 days)
+		Implement HTTP GET requests to fetch data from external APIs or services.
+		Include error handling and retries for robustness.
+	6. metricFindQuery (2-3 days)
+		Implement logic to return a list of metrics that match a given query.
+		Optimize for performance and handle large datasets efficiently.
+	7. testDatasource (2-3 days)
+		Implement functionality to test the datasource configuration.
+		Ensure it provides meaningful feedback on success or failure.
+	8. suggestApps (1-2 days)
+		Implement suggestions for available applications based on user input.
+		Ensure efficient and accurate suggestions.
+	9. suggestMetrics (1-2 days)
+		Implement suggestions for available metrics based on user input.
+		Handle large numbers of metrics efficiently.
+	10. suggestHosts (1-2 days)
+		Implement suggestions for available hosts based on user input.
+		Ensure accurate and relevant suggestions.
+	11. getAggregators (1 day)
+		Implement functionality to fetch and return available aggregators for metrics.
+		Ensure correct and complete list of aggregators.
+		
+Query Editor Implementation (3 weeks)
+
+	Frontend Implementation Using grafana/ui
+
+	1.Validation (2-3 days)
+		Ensure all input fields in the query editor are correctly validated.
+		Provide feedback for incorrect or missing inputs.
+	2.validateTarget (2-3 days)
+		Implement logic to validate the target of the query.
+		Ensure it conforms to the expected structure and parameters.
+	3.precisionInit (2-3 days)
+		Initialize precision settings for the query.
+		Handle different levels of precision based on user needs.
+	4.Transform (2-3 days)
+		Implement data transformation logic for query results.
+		Ensure results are formatted correctly for visualization.
+	5.Watch (1-2 days)
+		Implement watch functionality to monitor changes in query parameters.
+		Automatically update results based on changes.
+	6.suggestMetrics (1-2 days)
+		Implement suggestions for available metrics in the query editor.
+		Handle large numbers of metrics efficiently.
+	7.suggestHosts (1-2 days)
+		Implement suggestions for available hosts in the query editor.
+		Ensure accurate and relevant suggestions.
+	8.getAggregators (1 day)
+		Implement functionality to fetch and return available aggregators for queries.
+		Ensure correct and complete list of aggregators.
+	9.getCollapsedText (1-2 days)
+		Implement functionality to provide a collapsed view of the query for easy readability.
+		Ensure it accurately reflects the query structure and parameters.
+		
+Configuration Testing with Ambari Metrics (2 weeks)
+	1.Initial Setup (2-3 days)
+		Set up Ambari Metrics environment for testing.
+		Ensure all necessary components and configurations are in place.
+	2.Integration Testing (4-5 days)
+		Test the datasource against Ambari Metrics.
+		Validate that data is fetched and displayed correctly in Grafana.
+	3.Performance Testing (2-3 days)
+		Test the performance of queries and data loading.
+		Optimize as needed for efficiency and responsiveness.
+	4.Bug Fixes and Refinements (2-3 days)
+		Address any bugs or issues discovered during testing.
+		Refine the implementation for stability and performance.
+		
+Rewrite Queries for Testing with Metrics (1 week)
+	1.Review Existing Queries (1-2 days)
+		Review and document existing queries to understand their structure and purpose.
+	2.Rewrite Queries (3-4 days)
+		Rewrite queries to ensure compatibility with the new datasource implementation.
+		Optimize queries for performance and accuracy.
+	3.Testing and Validation (1-2 days)
+		Test rewritten queries to ensure they return correct results.
+		Validate performance and make any necessary adjustments.
+		
+Summary of Estimated Time
+Datasource Implementation: 3 weeks
+Query Editor Implementation: 3 weeks
+Configuration Testing with Ambari Metrics: 2 weeks
+Rewrite Queries for Testing with Metrics: 1 week
+Total Estimated Time: 9 weeks
